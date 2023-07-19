@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/test_project/static/css/main.d6c6616d.css",
+    "main.js": "/test_project/static/js/main.ae946fc1.js",
+    "static/media/OrchideaPro-Regular.ttf": "/test_project/static/media/OrchideaPro-Regular.0e67fa619a6c6d67dfe7.ttf",
+    "static/media/OrchideaPro-Medium.ttf": "/test_project/static/media/OrchideaPro-Medium.6c02bf7eeb2709cbe31b.ttf",
+    "static/media/OrchideaPro-Light.ttf": "/test_project/static/media/OrchideaPro-Light.ad7b1e7dd0e6e439ad38.ttf",
+    "static/media/OrchideaPro-Bold.ttf": "/test_project/static/media/OrchideaPro-Bold.d36b82bae8a4f1af0ac1.ttf",
+    "static/media/Manrope-Light.ttf": "/test_project/static/media/Manrope-Light.452d7eadd88137be5705.ttf",
+    "static/media/Manrope-Regular.ttf": "/test_project/static/media/Manrope-Regular.892a89f7015e492f6e21.ttf",
+    "static/media/Manrope-Medium.ttf": "/test_project/static/media/Manrope-Medium.101a50f661e51b761ca1.ttf",
+    "static/media/Manrope-Bold.ttf": "/test_project/static/media/Manrope-Bold.5b3c8d2d19fbbcbadad6.ttf",
+    "static/media/OrchideaPro-Medium.woff": "/test_project/static/media/OrchideaPro-Medium.2d4c858d33acd9403d7a.woff",
+    "static/media/OrchideaPro-Regular.woff": "/test_project/static/media/OrchideaPro-Regular.0710a8d9aaee5e627a4a.woff",
+    "static/media/OrchideaPro-Bold.woff": "/test_project/static/media/OrchideaPro-Bold.b44c9bb57a2553efa652.woff",
+    "static/media/OrchideaPro-Light.woff": "/test_project/static/media/OrchideaPro-Light.305f97eba6039ea40b8d.woff",
+    "static/media/OrchideaPro-Medium.woff2": "/test_project/static/media/OrchideaPro-Medium.c59499aeab18220e5d08.woff2",
+    "static/media/OrchideaPro-Regular.woff2": "/test_project/static/media/OrchideaPro-Regular.9a1ce7866cd1efe4a270.woff2",
+    "static/media/OrchideaPro-Light.woff2": "/test_project/static/media/OrchideaPro-Light.0b4419685830c81c8b94.woff2",
+    "static/media/OrchideaPro-Bold.woff2": "/test_project/static/media/OrchideaPro-Bold.c73f0b8313f98b54edbf.woff2",
+    "static/media/Manrope-Light.woff": "/test_project/static/media/Manrope-Light.5893ddfd10c17e34c95b.woff",
+    "static/media/Manrope-Bold.woff": "/test_project/static/media/Manrope-Bold.b6c4aa0b0b711186d005.woff",
+    "static/media/Manrope-Medium.woff": "/test_project/static/media/Manrope-Medium.4e55dc20921a95ef83f4.woff",
+    "static/media/Manrope-Regular.woff": "/test_project/static/media/Manrope-Regular.2046a49b5fa996c43f44.woff",
+    "static/media/Manrope-Light.woff2": "/test_project/static/media/Manrope-Light.4fd67bb050c2faa01db8.woff2",
+    "static/media/Manrope-Bold.woff2": "/test_project/static/media/Manrope-Bold.1fc53579e1040cbf987d.woff2",
+    "static/media/Manrope-Medium.woff2": "/test_project/static/media/Manrope-Medium.9cccfee0f8d3153ae547.woff2",
+    "static/media/Manrope-Regular.woff2": "/test_project/static/media/Manrope-Regular.cb78aabfaaf5d95c8665.woff2",
+    "index.html": "/test_project/index.html",
+    "main.d6c6616d.css.map": "/test_project/static/css/main.d6c6616d.css.map",
+    "main.ae946fc1.js.map": "/test_project/static/js/main.ae946fc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6c6616d.css",
+    "static/js/main.ae946fc1.js"
+  ]
+}
