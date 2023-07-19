@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test_project/static/css/main.d6c6616d.css",
-    "main.js": "/test_project/static/js/main.ae946fc1.js",
+    "main.js": "/test_project/static/js/main.31e53f68.js",
     "static/media/OrchideaPro-Regular.ttf": "/test_project/static/media/OrchideaPro-Regular.0e67fa619a6c6d67dfe7.ttf",
     "static/media/OrchideaPro-Medium.ttf": "/test_project/static/media/OrchideaPro-Medium.6c02bf7eeb2709cbe31b.ttf",
     "static/media/OrchideaPro-Light.ttf": "/test_project/static/media/OrchideaPro-Light.ad7b1e7dd0e6e439ad38.ttf",
@@ -28,10 +28,10 @@
     "static/media/Manrope-Regular.woff2": "/test_project/static/media/Manrope-Regular.cb78aabfaaf5d95c8665.woff2",
     "index.html": "/test_project/index.html",
     "main.d6c6616d.css.map": "/test_project/static/css/main.d6c6616d.css.map",
-    "main.ae946fc1.js.map": "/test_project/static/js/main.ae946fc1.js.map"
+    "main.31e53f68.js.map": "/test_project/static/js/main.31e53f68.js.map"
   },
   "entrypoints": [
     "static/css/main.d6c6616d.css",
-    "static/js/main.ae946fc1.js"
+    "static/js/main.31e53f68.js"
   ]
 }
