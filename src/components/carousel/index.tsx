@@ -5,8 +5,6 @@ import { Heading } from '../headingStyle';
 import { Box, ImageCarousel, ImageCarouselContainer } from './styles';
 
 
-
-
 const Carousel = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
   let scrollInterval: NodeJS.Timeout;
@@ -45,7 +43,7 @@ const Carousel = () => {
           }
         });
       },
-      { threshold: 0.9 }
+      { threshold: 1 }
     );
 
     observer.observe(carouselElement);
@@ -81,7 +79,9 @@ const Carousel = () => {
     };
 
     clearInterval(scrollInterval);
-    scrollInterval = setInterval(animateScroll, 1000 / framesPerSecond);
+    if (window.innerWidth >= 767) {
+      scrollInterval = setInterval(animateScroll, 1000 / framesPerSecond);
+    }
   };
 
   const stopAutomaticScroll = () => {
@@ -96,7 +96,7 @@ const Carousel = () => {
         {carouselData.map((image, index) => (
           <ImageCarousel
             key={index}
-            src={`/images/carousel/${image}`}
+            src={`${process.env.PUBLIC_URL}/images/carousel/${image}`}
             alt={`${image}`}
             $isLast={index === carouselData.length - 1}
           />

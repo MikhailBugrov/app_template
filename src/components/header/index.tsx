@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ logoSrc, phoneNumber, formattedPhoneNum
       <Logo src={logoSrc} alt="logo" onClick={scrollToTop} />
       <PhoneNumber href={`tel:${phoneNumber}`}>{formattedPhoneNumber}</PhoneNumber>
       <PhoneNumberImageLink href={`tel:${phoneNumber}`}>
-        <PhoneNumberImage src="/images/icons/phone.svg" alt="phone" />
+        <PhoneNumberImage src={`${process.env.PUBLIC_URL}/images/icons/phone.svg`} alt="phone" />
       </PhoneNumberImageLink>
     </HeaderContainer>
   );

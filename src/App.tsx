@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header
-        logoSrc="/images/icons/logo.svg"
+        logoSrc={`${process.env.PUBLIC_URL}/images/icons/logo.svg`}
         phoneNumber="+74954954954"
         formattedPhoneNumber="+7 (495) 495-49-54"
       />
