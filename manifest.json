@@ -1,6 +1,6 @@
 {
-  "short_name": "Test project",
-  "name": "Test project",
+  "short_name": "App template",
+  "name": "App template",
   "icons": [
     {
       "src": "favicon.ico",
