@@ -1,22 +1,15 @@
-import { NarratioProps } from './types';
-import { Heading } from '../headingStyle';
-import {
-  GridContainer,
-  Title,
-  Description,
-  ImageTop,
-  ImageBottom,
-  Box,
-} from './styles';
+import { Heading } from '../HeadingStyle';
+import { GridContainer, Title, Description, ImageTop, ImageBottom, Box } from './styles';
+import { NarrationProps } from './types';
 
-const Narratio: React.FC<NarratioProps> = ({
+const Narration: React.FC<NarrationProps> = ({
   heading,
   title1,
   description1,
   imageUrl1,
   title2,
   description2,
-  imageUrl2,
+  imageUrl2
 }) => {
   return (
     <>
@@ -37,4 +30,4 @@ const Narratio: React.FC<NarratioProps> = ({
   );
 };
 
-export default Narratio;
+export default Narration;

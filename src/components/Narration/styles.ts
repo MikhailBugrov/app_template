@@ -7,7 +7,7 @@ export const GridContainer = styled.div`
   gap: 130px;
 
   @media (max-width: 1660px) {
-    gap: 90px;
+    gap: 80px;
   }
 
   @media (max-width: 1200px) {
@@ -16,7 +16,6 @@ export const GridContainer = styled.div`
 
   @media (max-width: 767px) {
     grid-template-columns: 1fr;
-    gap: 40px;
   }
 `;
 
@@ -25,16 +24,17 @@ export const Title = styled.h3`
   font-family: OrchideaPro;
   font-size: 48px;
   font-weight: 500;
-  line-height: 53px;
+
+  @media (max-width: 1200px) {
+    font-size: 41px;
+  }
 
   @media (max-width: 991px) {
-    font-size: 35px;
-    line-height: 48px;
+    font-size: 28px;
   }
 
   @media (max-width: 767px) {
     font-size: 24px;
-    line-height: 29px;
     margin-bottom: 20px;
   }
 `;
@@ -44,37 +44,24 @@ export const Description = styled.p`
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
+
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 14px;
+  }
 `;
 
 export const ImageTop = styled.img`
   object-fit: cover;
-  width: calc(100% + 260px);
-  margin-left: -260px;
-  height: 100%;
+  width: calc(100% + 100px);
   max-height: 480px;
-
-  @media (max-width: 1660px) {
-    width: calc(100% + 160px);
-    margin-left: -160px;
-  }
-
-  @media (max-width: 1200px) {
-    width: calc(100% + 90px);
-    margin-left: -90px;
-  }
-
-  @media (max-width: 991px) {
-    width: calc(100% + 70px);
-    margin-left: -70px;
-  }
+  margin-left: -100px;
 
   @media (max-width: 767px) {
     max-height: 370px;
-    width: calc(100% + 120px);
-    margin-left: -60px;
-  }
-
-  @media (max-width: 575px) {
     width: calc(100% + 40px);
     margin-left: -20px;
   }
@@ -83,16 +70,12 @@ export const ImageTop = styled.img`
 export const ImageBottom = styled.img`
   object-fit: cover;
   object-position: 10% 10%;
-  width: 100%;
-  max-height: 411px;
+  max-height: 410px;
+  width: calc(100% + 100px);
+  margin-right: -100px;
 
   @media (max-width: 767px) {
     max-height: 360px;
-    width: calc(100% + 120px);
-    margin-left: -60px;
-  }
-
-  @media (max-width: 575px) {
     width: calc(100% + 40px);
     margin-left: -20px;
   }
