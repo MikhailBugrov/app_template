@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.3e9d15a6.css",
-    "main.js": "./static/js/main.e88702fa.js",
+    "main.js": "./static/js/main.7c9af088.js",
     "static/media/OrchideaPro-Regular.ttf": "./static/media/OrchideaPro-Regular.0e67fa619a6c6d67dfe7.ttf",
     "static/media/OrchideaPro-Medium.ttf": "./static/media/OrchideaPro-Medium.6c02bf7eeb2709cbe31b.ttf",
     "static/media/OrchideaPro-Light.ttf": "./static/media/OrchideaPro-Light.ad7b1e7dd0e6e439ad38.ttf",
@@ -28,10 +28,10 @@
     "static/media/Manrope-Regular.woff2": "./static/media/Manrope-Regular.cb78aabfaaf5d95c8665.woff2",
     "index.html": "./index.html",
     "main.3e9d15a6.css.map": "./static/css/main.3e9d15a6.css.map",
-    "main.e88702fa.js.map": "./static/js/main.e88702fa.js.map"
+    "main.7c9af088.js.map": "./static/js/main.7c9af088.js.map"
   },
   "entrypoints": [
     "static/css/main.3e9d15a6.css",
-    "static/js/main.e88702fa.js"
+    "static/js/main.7c9af088.js"
   ]
 }
