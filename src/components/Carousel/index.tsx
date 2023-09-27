@@ -1,21 +1,28 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 import 'swiper/css/autoplay';
+import './swiper.css';
 import { carouselData } from './carouselData';
 import { Heading } from '../HeadingStyle';
-import { Box, ImageCarousel, StyledSwiper, StyledSwiperSlide } from './styles';
+import { Box, ImageCarousel } from './styles';
 import { CarouselProps } from './types';
 
 const Carousel: React.FC<CarouselProps> = ({ title }) => {
   return (
     <Box>
       <Heading $isMobileMargin>{title}</Heading>
-      <StyledSwiper slidesPerView="auto" modules={[Autoplay]} autoplay={{ delay: 2500, disableOnInteraction: false }}>
+      <Swiper
+        slidesPerView="auto"
+        modules={[Autoplay]}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        className="swiperCarousel">
         {carouselData.map((image, index) => (
-          <StyledSwiperSlide key={index}>
+          <SwiperSlide key={index} className="slideCarousel">
             <ImageCarousel src={`${process.env.PUBLIC_URL}/images/carousel/${image}`} alt={`${image}`} />
-          </StyledSwiperSlide>
+          </SwiperSlide>
         ))}
-      </StyledSwiper>
+      </Swiper>
     </Box>
   );
 };
