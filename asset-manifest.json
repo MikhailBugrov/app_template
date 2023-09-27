@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1316d32e.css",
-    "main.js": "./static/js/main.a8bd6b1e.js",
+    "main.css": "./static/css/main.7e4186b4.css",
+    "main.js": "./static/js/main.fa10348a.js",
     "static/media/OrchideaPro-Regular.ttf": "./static/media/OrchideaPro-Regular.0e67fa619a6c6d67dfe7.ttf",
     "static/media/OrchideaPro-Medium.ttf": "./static/media/OrchideaPro-Medium.6c02bf7eeb2709cbe31b.ttf",
     "static/media/OrchideaPro-Light.ttf": "./static/media/OrchideaPro-Light.ad7b1e7dd0e6e439ad38.ttf",
@@ -27,11 +27,11 @@
     "static/media/Manrope-Medium.woff2": "./static/media/Manrope-Medium.9cccfee0f8d3153ae547.woff2",
     "static/media/Manrope-Regular.woff2": "./static/media/Manrope-Regular.cb78aabfaaf5d95c8665.woff2",
     "index.html": "./index.html",
-    "main.1316d32e.css.map": "./static/css/main.1316d32e.css.map",
-    "main.a8bd6b1e.js.map": "./static/js/main.a8bd6b1e.js.map"
+    "main.7e4186b4.css.map": "./static/css/main.7e4186b4.css.map",
+    "main.fa10348a.js.map": "./static/js/main.fa10348a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1316d32e.css",
-    "static/js/main.a8bd6b1e.js"
+    "static/css/main.7e4186b4.css",
+    "static/js/main.fa10348a.js"
   ]
 }
